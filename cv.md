@@ -1,4 +1,4 @@
-
+![foto](/rsschool-cv/foto_Voronova.jpg)
 ***
 # Ekaterina Voronova
 ***
