@@ -1,5 +1,5 @@
-[rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv)
-![foto Voronova](./fotoVoronova.jpg)
+# [rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv)
+![foto Voronova](fotoVoronova.jpg)
 ***
 # Ekaterina Voronova
 ***
