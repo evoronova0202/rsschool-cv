@@ -1,4 +1,4 @@
-![](foto_Voronova.JPG)
+![](D:\rs_school\rsschool-cv\foto_Voronova.JPG)
 ***
 # Ekaterina Voronova
 ***
