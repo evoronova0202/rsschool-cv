@@ -9,6 +9,13 @@ main {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 150px 0 150px;
+}
+
 .a1 {
     display: block;
 }
@@ -39,9 +46,9 @@ main {
     color: black;
     font-weight: bold;
 }
-.div2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
-    padding: 0 100px 0 100px;
+
+.content {
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
 }
