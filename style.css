@@ -52,3 +52,13 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.footer6 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav2, .nav3, .nav4, .nav5 {
+    font-weight: bold;
+}
