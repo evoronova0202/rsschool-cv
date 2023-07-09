@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main { 
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 150px 0 150px;
+}
+
+.a1 {
+    display: block;
+}
+
+.img1 {
+    width: 100px;
+}
+
+.span1 {
+    font-weight: bold;
+}
+
+.code {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.img2 {
+    width: 100px;
+}
+
+.li1 {
+    font-weight: bold;
+}
+
+.a2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer6 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav2, .nav3, .nav4, .nav5 {
+    font-weight: bold;
+}
