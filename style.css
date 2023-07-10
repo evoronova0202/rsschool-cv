@@ -16,35 +16,22 @@ footer {
     margin: 0 150px 0 150px;
 }
 
-.a1 {
-    display: block;
-}
-
-.img1 {
-    width: 100px;
-}
-
-.span1 {
-    font-weight: bold;
-}
-
 .code {
     font-style: italic;
     font-weight: bold;
 }
 
-.img2 {
-    width: 100px;
-}
-
-.li1 {
+li {
     font-weight: bold;
 }
 
-.a2 {
+.nav2, .nav3, .nav4, .nav5 {
+    font-style: italic;
+}
+
+a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 
 .content {
