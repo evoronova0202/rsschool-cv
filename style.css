@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: left;
-    margin-left: 50px;
+    margin-left: 19%;
 }
 
 main { 
@@ -22,7 +22,7 @@ footer {
 
 .foto {
     display: flex;
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 .code {
@@ -50,7 +50,7 @@ a {
 }
 
 .footer-rsschool {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
