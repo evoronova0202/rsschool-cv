@@ -5,15 +5,18 @@ header {
 
 main { 
     margin: 0 auto;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    margin-left: 50px;
 }
 
 footer {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    margin: 0 150px 0 150px;
+    justify-content:space-around;
+}
+
+.column {
+    width: 50%;
 }
 
 .code {
