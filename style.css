@@ -49,7 +49,11 @@ a {
     flex-wrap: wrap;
 }
 
-.footer6 {
+.footer-rsschool {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
