@@ -1,23 +1,25 @@
-# [rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv)
-![foto Voronova](fotoVoronova.jpg)
+## [rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv )
+![foto Voronova](avatarko.jpg)
 ***
 # Ekaterina Voronova
 ***
 ### Junior Frontend Developer
 ***
 ## Contact information:
-* **Phone:** +375 29 360 45 54
+* **Phone:** +37529 360 45 54
 * **E-mail:** evoronova0202@gmail.com
 * **GitHub:** evoronova0202
 * **Telegram:** @evoronova0202
 ***
 ## About me:
 
-All my life I've been interested in something new. It's so really facsination and exciting to create something from nothing and see your result on the screen.
+All my life I've been interested in something new. It's so really admiring and astonishing to create something from scratch, from nothing and see your result on the screen. It's realy cool to seat in the middle of nowheare near the sea, drink fresh juice and click on keyboard to create something new.
 
-I would like to develop and change during al my life. My purpose is to gain knowlege in the field of front-end development. IT is my life!
+I would like to develop and change during all my life. My purpose is to acquire welth of knowledge in the field of frontend development and find my first work as a junior Frontend developer. I manage to reach my goal. I believe, I can be useful at work and my new company earns a lot of money on me, if apply for a job me.
 
-I hope, that gain my new skils, help me become a professional Frontend developer.
+A want to be an entegral part of close team and work together to archieve new targets.
+
+I hope, that aim that get my new skils, knowledge, relevant experience help me become a professional Frontend developer.
 
 ***
 ## Skills:
