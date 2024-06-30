@@ -1,5 +1,4 @@
-## [rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv )
-![foto Voronova](avatarka.jpg)
+## [rsschool-cv]( https://evoronova0202.github.io/rsschool-cv/cv ) ![foto Voronova](avatarka.jpg)
 ***
 # Ekaterina Voronova
 ***
@@ -26,6 +25,7 @@ I hope, that aim that get my new skils, knowledge, relevant experience help me b
 * HTML5
 * CSS3
 * VS Code
+* JS Basic
 ***
 ## Code example:
 ***This code does not execute properly. Try to figure out why.***
@@ -42,4 +42,4 @@ function multiply(a, b){
 ## Languages:
 * Russian- native speaker
 * Belarusian - native speaker
-* English - B1 (B2 in proess..)
+* English - B2 (B2+ in progress..)
