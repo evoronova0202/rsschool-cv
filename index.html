@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="content">
-    <header class="header header-container">
-      <nav class="nav">
+  <div class="container">
+    <header class="header wrapper">
+      <div class="header-profile foto"><img src="https://lh3.googleusercontent.com/a/AAcHTtcmJ24BplAqF9n4wS7KLSAk2At3s6PZnyPlxR37k4CkRw=s96-c-rg-br100" alt="fotoVoronova" class="img">
+      </div>
+      <div class="header-profile job">
+      <h1 class="name">Ekaterina Voronova</h1>
+      <h3 class="vacancy">Junior Frontend Developer</h3>
+      </div>
+      <nav class="header-profile nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
@@ -26,32 +32,24 @@
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
-      <div class="foto"><img src="https://lh3.googleusercontent.com/a/AAcHTtcmJ24BplAqF9n4wS7KLSAk2At3s6PZnyPlxR37k4CkRw=s96-c-rg-br100" alt="fotoVoronova" class="img">
-      </div>
-      <div class="job">
-      <h1 class="name">Ekaterina Voronova</h1>
-      <h3 class="vacancy">Junior Frontend Developer</h3>
-      </div>
     </header>
-    <main class="main">
+    <main class="main wrapper">
       <div class="column">
       <section class="section" id="contacts">
-        <div class="div1">
+        <div class="elem">
           <h2>Contacts:</h2>
-          <nav class="nav1">
-            <ul class="ul1">
-              <li class="li1">
-                <div class="nav2">Phone: </div><a href="#">+37529 360 45 54</a></li>
-              <li class="li2">
-                <div class="nav3">E-mail: </div><a href="#">evoronova0202@gmail.com</a></li>
-              <li class="li3">
-                  <div class="nav4">GitHub: </div>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <div class="elem">Phone: </div><a href="#">+37529 360 45 54</a></li>
+              <li class="contacts-item">
+                <div class="elem">E-mail: </div><a href="#">evoronova0202@gmail.com</a></li>
+              <li class="contacts-item">
+                  <div class="elem">GitHub: </div>
                   <a href="#">evoronova0202</a></li>
-              <li class="li4">
-                  <div class="nav5">Telegram: </div>
+              <li class="contacts-item">
+                  <div class="elem">Telegram: </div>
                   <a href="#">@evoronova0202</a></li>
             </ul>
-          </nav>
         </div>
       </section>
       <section class="section" id="about_me">
@@ -104,13 +102,13 @@
     </ul>
   </div>
     </section>
-    <section class="section" id="#project_examples">
+    <section class="section" id="project_examples">
       <div class="div8">
         <h2 class="h8">Project examples:</h2>
         <a href="https://evoronova0202.github.io/rsschool-cv/" class="project">Project CV</a>
       </div>
         </section>
-    <section class="section" id="#languages">
+    <section class="section" id="languages">
   <div class="div9">
     <h2 class="h9">Languages:</h2>
     <ul class="ul5">
@@ -123,7 +121,7 @@
     </section>
   </div>
 </main>
-<footer class="footer">
+<footer class="footer wrapper">
   <div class="footer-rsschool">
     <a href="https://rs.school/courses/javascript-ru" class="footer_link" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="75" class="footer-img"></a>
     <p class="footer-year&name">2023 by Ekaterina Voranava</p>
