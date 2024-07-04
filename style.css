@@ -9,4 +9,13 @@ main {
     display: flex;
 }
 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav2, .nav3, .nav4, .nav5 {
+    font-weight: bold;
+}
 
