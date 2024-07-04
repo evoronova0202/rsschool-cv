@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: left;
+    margin-left: 19%;
+}
+
+.nav2, .nav3, .nav4, .nav5 {
+    font-weight: bold;
+}
+
+main { 
+    margin: 0 auto;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}.column {
+    width: 50%;
+    margin: 0 50px 0 50px;
+}
+
+.foto {
+    display: flex;
+    margin-right: 5%;
+}
+
+.code {
+    font-style: italic;
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
+}
+
+.nav2, .nav3, .nav4, .nav5 {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-rsschool {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
