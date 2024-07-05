@@ -1,64 +1,99 @@
-header {
-    display: flex;
-    justify-content: left;
-    margin-left: 19%;
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+*, *::after, *::before {
+    box-sizing: inherit;
 }
-
-.nav2, .nav3, .nav4, .nav5 {
-    font-weight: bold;
-}
-
-main { 
+.wrapper {
+    max-width: 1440px;
     margin: 0 auto;
-    display: flex;
+    padding: 0 40px;
 }
-
-footer {
+header {
     width: 100%;
     display: flex;
-    justify-content:space-around;
-}.column {
-    width: 50%;
-    margin: 0 50px 0 50px;
+    justify-content: space-between;
 }
-
-.foto {
+main {
     display: flex;
-    margin-right: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
-
-.code {
-    font-style: italic;
-    font-weight: bold;
-}
-
 li {
     font-weight: bold;
 }
-
-.nav2, .nav3, .nav4, .nav5 {
-    font-style: italic;
-}
-
 a {
     text-decoration: none;
     color: black;
 }
-
-.content {
-    display: block;
-    align-items: center;
-    flex-wrap: wrap;
+.header-profile {
+    width: 100%;
+    margin: 40px 0 40px;
 }
-
-.footer-rsschool {
-    width: 80%;
+.foto {
+    width: 10%;
     display: flex;
-    justify-content: space-around;
+}
+.job {
+    width: 25%;
+    text-align: center;
+}
+.nav {
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    padding-top: 1%;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.nav-item{
+    padding-right: 2rem;
+    list-style-type: none;
+}
+.nav-item:last-child {
+    padding-right: 0;
+}
+.nav-item:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    height: 26px;
+    width: 0px; 
+    border-bottom: solid 2px black;
+    transition: all 0.5s ease-in-out;	
+}
+.elem {
+    font-weight: bold;
+}
+.column {
+    width: 40%;
+}
+.code {
+    font-style: italic;
+    font-weight: bold;
+}
+.nav2, .nav3, .nav4, .nav5 {
+    font-style: italic;
+}
+.footer-rsschool {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 40px 0 40px;
+}
+.footer-GitHub {
+    width: 18%;
+    display: flex;
+    justify-content: right;
 }
 
 
