@@ -11,14 +11,11 @@ html {
     padding: 0 40px;
 }
 header {
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 li {
@@ -29,71 +26,57 @@ a {
     color: black;
 }
 .header-profile {
-    width: 100%;
     margin: 40px 0 40px;
 }
-.foto {
-    width: 10%;
-    display: flex;
+.header-img {
+    width: 10rem;
 }
-.job {
-    width: 25%;
+.header-job {
     text-align: center;
+    margin: 40px 0 0;
 }
 .nav {
-    width: 65%;
     display: flex;
     justify-content: right;
     padding-top: 1%;
 }
 .nav-list {
     display: flex;
+    justify-content: right;
     flex-wrap: wrap;
     padding: 0;
 }
 .nav-item{
-    padding-right: 2rem;
     list-style-type: none;
+    padding-right: 2rem;
 }
 .nav-item:last-child {
     padding-right: 0;
 }
-.nav-item:after {
-    position: absolute;
-    left: 50%;
-    content: '';
-    height: 26px;
-    width: 0px; 
-    border-bottom: solid 2px black;
-    transition: all 0.5s ease-in-out;	
-}
-.elem {
-    font-weight: bold;
+.grid {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .column {
-    width: 40%;
-}
-.code {
-    font-style: italic;
-    font-weight: bold;
-}
-.nav2, .nav3, .nav4, .nav5 {
-    font-style: italic;
+    max-width: 40%;
 }
 .footer-rsschool {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
     margin: 40px 0 40px;
 }
+.footer-logo {
+    width: 6.5rem;
+}
+.footer-year {
+    margin: 0 20px;
+    text-align: center;
+}
 .footer-GitHub {
-    width: 18%;
-    display: flex;
-    justify-content: right;
+    width: 3rem;
 }
 
 

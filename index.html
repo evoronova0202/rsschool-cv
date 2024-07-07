@@ -10,13 +10,18 @@
 <body>
   <div class="container">
     <header class="header wrapper">
-      <div class="header-profile foto"><img src="https://lh3.googleusercontent.com/a/AAcHTtcmJ24BplAqF9n4wS7KLSAk2At3s6PZnyPlxR37k4CkRw=s96-c-rg-br100" alt="fotoVoronova" class="img">
+      <div class="header-profile header-foto"><img src="https://lh3.googleusercontent.com/a/AAcHTtcmJ24BplAqF9n4wS7KLSAk2At3s6PZnyPlxR37k4CkRw=s96-c-rg-br100" alt="fotoVoronova" class="header-img">
       </div>
-      <div class="header-profile job">
+      <div class="header-profile header-job">
       <h1 class="name">Ekaterina Voronova</h1>
       <h3 class="vacancy">Junior Frontend Developer</h3>
       </div>
       <nav class="header-profile nav">
+        <div class="burger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
         <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
@@ -28,16 +33,12 @@
           <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
-      <div class="burger-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
     </header>
     <main class="main wrapper">
+      <div class="grid">
       <div class="column">
       <section class="section" id="contacts">
-        <div class="elem">
+        <div class="contacts">
           <h2>Contacts:</h2>
             <ul class="contacts-list">
               <li class="contacts-item">
@@ -54,80 +55,79 @@
         </div>
       </section>
       <section class="section" id="about_me">
-        <div class="div2">
-          <h2 class="h3">About me: </h2>
-          <p class="p1">All my life I've been interested in something new. It's so really admiring and astonishing to create something from scratch, from nothing and see your result on the screen. It's realy cool to seat in the middle of nowheare near the sea, drink fresh juice and click on keyboard to create something new.</p>
-          <p class="p2">I would like to develop and change during all my life. My purpose is to acquire welth of knowledge in the field of frontend development and find my first work as a junior Frontend developer. I manage to reach my goal. I believe, I can be useful at work and my new company earns a lot of money on me, if apply me for a job.</p>
-          <p class="p3">A want to be an entegral part of close team and work together to archieve new targets.</p>
-          <p class="p4">I hope, that my aim will reach and my new skils, knowledge, relevant experience help me become a professional Frontend developer.</p>
+        <div class="about">
+          <h2 class="title">About me: </h2>
+          <p class="subtitle">All my life I've been interested in something new. It's so really admiring and astonishing to create something from scratch, from nothing and see your result on the screen. It's realy cool to seat in the middle of nowheare near the sea, drink fresh juice and click on keyboard to create something new.</p>
+          <p class="subtitle">I would like to develop and change during all my life. My purpose is to acquire welth of knowledge in the field of frontend development and find my first work as a junior Frontend developer. I manage to reach my goal. I believe, I can be useful at work and my new company earns a lot of money on me, if apply me for a job.</p>
+          <p class="subtitle">A want to be an entegral part of close team and work together to archieve new targets.</p>
+          <p class="subtitle">I hope, that my aim will reach and my new skils, knowledge, relevant experience help me become a professional Frontend developer.</p>
         </div>
       </section>
       <section class="section" id="skills">
-        <div class="div3">
-          <h2 class="h4">Skills:</h2>
-          <div class="div4">
-            <ul class="ul2">
-            <li class="li5">HTML5</li>
-            <li class="li6">CSS3</li>
-            <li class="li7">VS Code</li>
-            <li class="li7">GitHub</li>
-            <li class="li7">Git</li>
+        <div class="skills">
+          <h2 class="title">Skills:</h2>
+            <ul class="skills-list">
+            <li class="skills-item">HTML5</li>
+            <li class="skills-item">CSS3</li>
+            <li class="skills-item">VS Code</li>
+            <li class="skills-item">GitHub</li>
+            <li class="skills-item">Git</li>
             </ul>
-          </div>
         </div>
       </section>
       </div>
     <div class="column">
     <section class="section" id="code_example">
-        <div class="div5">
-          <h2 class="h5">Code example:</h2>
-          <p class="code1">This code does not execute properly. Try to figure out why.</p>
-          <code class="code2">function multiply(a, b){<br>
+        <div class="code">
+          <h2 class="title">Code example:</h2>
+          <p class="code-subtitle">This code does not execute properly. Try to figure out why.</p>
+          <code class="code-subtitle">function multiply(a, b){<br>
         return a * b<br>
     }</code>
   </div>
     </section>
     <section class="section" id="courses">
-  <div class="div6">
-    <h2 class="h6">Courses:</h2>
-    <ul class="ul3">
-      <li class="li7"><a href="https://rs.school/js/">RS Schools Course «JavaScript/Front-end. Pre-school RU»</a>(in progress..)</li>
+  <div class="courses">
+    <h2 class="title">Courses:</h2>
+    <ul class="courses-list">
+      <li class="courses-item"><a href="https://rs.school/js/" class="courses-link">RS Schools Course «JavaScript/Front-end. Pre-school RU»</a>(in progress..)</li>
     </ul>
   </div>
     </section>
     <section class="section" id="education">
-  <div class="div7">
-    <h2 class="h7">Education:</h2>
-    <ul class="ul3">
-      <li class="li9">Minsk State Pedagogical College.<br><i> Vocational education of primary classes and folk crafts.</i></li>
-      <li class="li10">Pedagogical University of M. Tanka.<br><i> Bachelor of drawing and sketching </i></li>
+  <div class="education">
+    <h2 class="title">Education:</h2>
+    <ul class="education-list">
+      <li class="education-item">Minsk State Pedagogical College.<br><i> Vocational education of primary classes and folk crafts.</i></li>
+      <li class="education-item">Pedagogical University of M. Tanka.<br><i> Bachelor of drawing and sketching </i></li>
     </ul>
   </div>
     </section>
     <section class="section" id="project_examples">
-      <div class="div8">
-        <h2 class="h8">Project examples:</h2>
-        <a href="https://evoronova0202.github.io/rsschool-cv/" class="project">Project CV</a>
+      <div class="project">
+        <h2 class="title">Project examples:</h2>
+        <a href="https://evoronova0202.github.io/rsschool-cv/" class="project-link">Project CV</a>
       </div>
         </section>
     <section class="section" id="languages">
-  <div class="div9">
-    <h2 class="h9">Languages:</h2>
-    <ul class="ul5">
-      <li class="li15">Russian- native speaker</li>
-      <li class="li16">Belarusian - native speaker</li>
-      <li class="li17">English - B2 (B2+ in progress..)</li>
-      <li class="li18">Spanish: beginner</li>
+  <div class="languages">
+    <h2 class="title">Languages:</h2>
+    <ul class="languages-list">
+      <li class="languages-item">Russian- native speaker</li>
+      <li class="languages-item">Belarusian - native speaker</li>
+      <li class="languages-item">English - B2 (B2+ in progress..)</li>
+      <li class="languages-item">Spanish: beginner</li>
     </ul>
   </div>
     </section>
   </div>
+  </div>
 </main>
 <footer class="footer wrapper">
   <div class="footer-rsschool">
-    <a href="https://rs.school/courses/javascript-ru" class="footer_link" target="_blank"><img src="./assets/icons/rs-school-logo.svg" alt="rsschool" width="75" class="footer-logo"></a>
-    <p class="footer-year&name">2023 by Ekaterina Voronova</p>
-    <a href="https://github.com/evoronova0202/rsschool-cv" class="footer-GitHub"><img src="./assets/icons/GitHub.png" alt="GitHub" class="footer-GitHub"></a>
+    <a href="https://rs.school/courses/javascript-ru" class="footer-link" target="_blank"><img src="./assets/icons/rs-school-logo.svg" alt="logo" class="footer-img footer-logo"></a>
+    <h3 class="footer-year">2023 by Ekaterina Voronova</h3>
+    <a href="https://github.com/evoronova0202/rsschool-cv" class="footer-link" target="_blank"><img src="./assets/icons/GitHub.png" alt="GitHub" class="footer-img footer-GitHub"></a>
   </div>
 </footer>
 </div>
